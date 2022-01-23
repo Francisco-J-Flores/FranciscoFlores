@@ -751,7 +751,7 @@ h3{
   .formularios{
     width: 28%;
     margin:0 auto;
-    background-image: url(../ejemplo/img/Casalogo.jpg) ;
+    background-image: url(../nuevo_repo/img/Casalogo.jpg) ;
     background-size: cover;
     background-position: center;
     padding: 30px 33px 67px;
@@ -797,6 +797,10 @@ h3{
 
     }
 
+
+    .row g-0{
+        background-color: beige;
+    }
     /*Footer para todos*/
    footer div {
        position:relative;
