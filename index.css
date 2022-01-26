@@ -513,7 +513,8 @@ h3{
 
     header{
        height: 27vh;
-       background-color: rgb(226, 65, 17);
+       background: rgb(238,167,0);
+       background: radial-gradient(circle, rgba(238,167,0,0.9867297260701156) 0%, rgba(236,198,101,1) 47%, rgba(238,192,38,1) 100%);       
        text-align: center;
        position: sticky;
    }
@@ -545,9 +546,9 @@ h3{
    
    
    nav{
-       background-color: rgb(226, 65, 17);
-       text-align: center;
-       padding-top: 0px;
+      background: rgb(238,167,0);
+      background: radial-gradient(circle, rgba(238,167,0,0.9867297260701156) 0%, rgba(236,198,101,1) 47%, rgba(238,192,38,1) 100%);
+      padding-top: 0px;
    
    
    }
@@ -555,7 +556,8 @@ h3{
        list-style: none;
        margin: 0;
        padding: 0;
-       background-color: rgb(226, 65, 17);
+       background: rgb(238,167,0);
+       background: radial-gradient(circle, rgba(238,167,0,0.9867297260701156) 0%, rgba(236,198,101,1) 47%, rgba(238,192,38,1) 100%);
    
    }
    
@@ -571,14 +573,16 @@ h3{
 
        color: rgb(255, 255, 255);
        text-decoration: none;
-       text-shadow:  8px 5px 4px black;
+       text-shadow:  8px 5px 4px rgb(0, 0, 0);
        font-family: 'Bebas Neue', cursive;
        font-size: 35px;
        transition: background-color .1s;
+       justify-content: center;
+       align-content: center;
    }    
        
    nav ul li a:hover{
-       background-color: rgb(0, 0, 0);
+       background-color: rgba(0, 0, 0, 0.3);
        color: beige;
        transition: .9s;
    
@@ -602,7 +606,7 @@ h3{
    
        @keyframes foto {
        from {
-           transform: translateX(-200%)
+           transform: translateX(-220%)
          }
          to {
            transform: translateX(0);
@@ -628,7 +632,8 @@ h3{
    
    @keyframes foto1 {
        from {
-           transform: translateX(200%)
+           transform: translateX(220%)
+
          }
          to {
            transform: translateX(0);
@@ -639,7 +644,8 @@ h3{
        text-align: center;
        font-size: 350%;
        color: rgb(255, 255, 255);
-       background-color: rgb(226, 65, 17);
+       background: rgb(238,167,0);
+       background: radial-gradient(circle, rgba(238,167,0,0.9867297260701156) 0%, rgba(166,166,166,1) 20%, rgba(236,198,101,1) 47%, rgba(154,154,152,1) 78%, rgba(238,192,38,1) 100%);
        padding-top: 35px;
        padding-bottom: 35px;
        font-family: 'Bebas Neue', cursive;
@@ -684,8 +690,16 @@ h3{
        font-size: 35px;
        text-align: justify;
        padding-right: 20px;
-    /* Fin de main Index */
+
    }
+    #mail{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+
+
+    }
+    /* Fin de main Index */
+   
 
    /* Comienza la parte de galeria HTML */
 
@@ -742,6 +756,8 @@ h3{
     }
                                    
 #fondoFotos img:hover {-webkit-transform:scale(1.0);transform:scale(1.2);}
+            img:hover {transition-duration: 2s;}
+
 .fotosdegaleria {overflow:hidden;}
 
 /* fin parte de galeria */
@@ -771,8 +787,8 @@ h3{
   /* parte de playlist */
 
   .segundoTitulo{
-    background: rgb(108,180,181);
-    background: linear-gradient(207deg, rgba(108,180,181,1) 16%, rgba(186,223,188,1) 27%, rgba(190,129,43,1) 41%, rgba(236,192,34,0.6421919109440651) 52%, rgba(167,157,99,1) 69%, rgba(198,193,228,1) 86%);
+    background: rgb(238,167,0);
+    background: radial-gradient(circle, rgba(238,167,0,0.9867297260701156) 0%, rgba(236,198,101,1) 47%, rgba(238,192,38,1) 100%);
     font-weight: bold;
     font-size: 200%;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
@@ -798,18 +814,18 @@ h3{
     }
 
 
-    .row g-0{
+    .row g-1{
         background-color: beige;
     }
     /*Footer para todos*/
    footer div {
        position:relative;
-       text-align: center;
-       background: rgb(108,180,181);
-       background: linear-gradient(207deg, rgba(108,180,181,1) 16%, rgba(186,223,188,1) 27%, rgba(190,129,43,1) 41%, rgba(236,192,34,0.6421919109440651) 52%, rgba(167,157,99,1) 69%, rgba(198,193,228,1) 86%);       overflow: hidden;
-   }
+       align-content: center;
+       background: rgb(238,167,0);
+       background: radial-gradient(circle, rgba(238,167,0,0.9867297260701156) 0%, rgba(236,198,101,1) 47%, rgba(238,192,38,1) 100%);
+    }
    h3{
-       padding-bottom: 35px;
+       padding-bottom: 25px;
    
    }
    .Insta{
@@ -817,13 +833,13 @@ h3{
    }
    #Insta:hover {filter: opacity(.3);}
 
-   
+}
 
 
 
 
 
 
-} 
+
 
   
