@@ -764,26 +764,20 @@ h3{
   
  /* Comienzo parte de contacto */
 
-  .formularios{
-    width: 28%;
-    margin:0 auto;
-    background-image: url(../nuevo_repo/img/Casalogo.jpg) ;
-    background-size: cover;
-    background-position: center;
-    padding: 30px 33px 67px;
-    border-top: 3px solid rgb(226, 65, 17);
-    justify-content: center;
-    align-items: center;
-}
 
-.titulo1ero{
-    text-align: center;
-    font-size: 200%;
-    text-shadow: rgb(0, 0, 0) 10px 10px 10px;
+#tituloContacto{
     font-family: 'Bebas Neue', cursive;
-    color: rgb(7, 61, 6);
+    text-align: center;
+}
+ 
+#fotoFondo{
+    background-image: url(../nuevo_repo/img/casalogo2.png.png) ;
+    background-position: center;
+
 }
 
+
+  
   /* parte de playlist */
 
   .segundoTitulo{
@@ -834,12 +828,25 @@ h3{
    #Insta:hover {filter: opacity(.3);}
 
 }
+  /* parte de Clases */
 
+#mapa{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 
+.tituloCuarto{
+    font-family: 'Bebas Neue', cursive;
 
+}
 
-
-
-
+.instructores{
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(0, 0, 0);
+    list-style: none;
+    text-align: center;
+    font-size: 160%;
+}
 
   
